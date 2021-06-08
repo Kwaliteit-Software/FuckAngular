@@ -1,4 +1,7 @@
-*Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
+<p align="center">
+  <img width="640" height="160" src="https://raw.githubusercontent.com/Kwaliteit-Software/FuckAngular/main/public/img/logo-alleen-samen.png">
+</p>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d49832b6-160f-45ea-8f2f-5bc3e34c46fc/deploy-status)](https://app.netlify.com/sites/fuckangular/deploys)
 
 ---
 
