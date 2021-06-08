@@ -45,6 +45,7 @@
     </div>
     <div class="container">
       <div class="header__layout">
+        <img src="img/angular-logo-RO.png" class="header__logo-badge" alt="Logo CoronaMelder app">
         <div class="header__layout__middle">
           <h1 class="header__text">
             Voorkom verspreiding,<br/>
