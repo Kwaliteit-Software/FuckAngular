@@ -1,5 +1,25 @@
 <script lang="ts">
+  import { onMount } from 'svelte';
 
+  // Initialize time
+  let time = new Date();
+
+  // These automatically update when `time` changes, because of the `$:` prefix
+  $: dag = time.toLocaleString('default', { day: 'numeric' })
+  $: maand = time.toLocaleString('default', { month: 'long' })
+  $: aantal = (Math.round(time / 1000) - 1556136821).toLocaleString();
+
+  onMount(() => {
+    // Update time every second
+    const interval = setInterval(() => {
+      time = new Date();
+    }, 1000);
+
+    // Will be called when the component is unmounted.
+    return () => {
+      clearInterval(interval);
+    };
+  });
 </script>
 <header>
   <div class="header">
@@ -44,8 +64,7 @@
           <div class="md-block-lead">
             <p>
               Angular wordt altijd nog gebruikt. Dus is het belangrijk om juist nu alert te blijven. Daarom is
-              FuckAngular nu te gebruiken voor heel Nederland. Op
-              <span id="angular-date">8 juni</span> zijn al <strong id="angular-count">4.056.923</strong> Angular
+              FuckAngular nu te gebruiken voor heel Nederland. Op {dag} {maand} zijn al <strong>{aantal}</strong> Angular
               projecten verwijderd.
             </p>
           </div>
