@@ -112,18 +112,9 @@
         <div class="footer-links-col ___desktop-50">
           <div class="footer-logos-info">
             <h2 class="screen-reader-text">Colofon</h2>
-            Het FuckAngular programma is ontwikkeld door het Ministerie van Development, het Ministerie van Cyber, in
-            samenwerking met het
-            <a href="https://www.rivm.nl/" target="_blank" rel="noopener noreferrer">
-              <abbr title="Rijksinstituut voor Volksgezondheid en Milieu">RIVM</abbr>
-            </a>
-            en de landelijke
-            <a href="https://www.ggd.nl/" target="_blank" rel="noopener noreferrer">
-              <abbr title="Gemeentelijke gezondheidsdienst">GGD'en</abbr>
-            </a>
-            . Dit programma had niet tot stand kunnen komen zonder de hulp van tientallen experts, ervaringsdeskundigen
-            en een grote open source community van burgers die heeft meegekeken en getest tijdens de ontwikkeling. Er is
-            alles aan
+            Het FuckAngular programma is ontwikkeld door Kwaliteit Software.
+            Dit programma had niet tot stand kunnen komen zonder de hulp van tientallen experts, ervaringsdeskundigen
+            en een grote open source community van burgers die heeft meegekeken en getest tijdens de ontwikkeling. Er is alles aan
             gedaan om te zorgen voor een privacyvriendelijke, veilig, toegankelijk en gebruiksvriendelijk programma die
             helpt Angular onder controle te krijgen en houden.
           </div>
@@ -158,7 +149,7 @@
           <h3>Meer informatie?</h3>
           <ul>
             <li>
-              <a href="https://rijksoverheid.nl" target="_blank" rel="noopener noreferrer">Kijk op rijksoverheid.nl </a>
+              <a href="#" rel="noopener noreferrer">Kijk niet op rijksoverheid.nl </a>
             </li>
             <li>
               <a href="https://github.com/kwaliteit-software/fuckangular" target="_blank" rel="noopener noreferrer">De
