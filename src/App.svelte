@@ -5,9 +5,9 @@
   let time = new Date();
 
   // These automatically update when `time` changes, because of the `$:` prefix
-  $: dag = time.toLocaleString('default', { day: 'numeric' })
-  $: maand = time.toLocaleString('default', { month: 'long' })
-  $: aantal = (Math.round(time / 1000) - 1556136821).toLocaleString();
+  $: dag = time.toLocaleString('nl-NL', { day: 'numeric' })
+  $: maand = time.toLocaleString('nl-NL', { month: 'long' })
+  $: aantal = (Math.round(time / 1000) - 1642136821).toLocaleString('nl-NL');
 
   onMount(() => {
     // Update time every second
